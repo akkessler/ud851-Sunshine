@@ -18,17 +18,12 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
       xmlns:app="http://schemas.android.com/apk/res-auto"
       xmlns:tools="http://schemas.android.com/tools"
-      tools:context=".MainActivity">
-    <item
-        android:id="@+id/action_refresh"
-        android:orderInCategory="1"
-        android:title="@string/action_refresh"
-        app:showAsAction="ifRoom"/>
+      tools:context=".DetailActivity">
 
     <item
-        android:id="@+id/action_map"
-        android:orderInCategory="2"
-        android:title="Map"
-        app:showAsAction="never"/>
+        android:id="@+id/action_share"
+        android:icon="@android:drawable/ic_menu_share"
+        android:title="Share"
+        app:showAsAction="always"/>
 
 </menu>
