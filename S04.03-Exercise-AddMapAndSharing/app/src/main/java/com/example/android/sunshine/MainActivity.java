@@ -233,7 +233,7 @@ public class MainActivity extends AppCompatActivity implements ForecastAdapterOn
             }
             return true;
         }
-        
+
         return super.onOptionsItemSelected(item);
     }
 }
